@@ -1,0 +1,147 @@
+{
+  "stage": "antes",
+  "config": {
+    "canvas": [
+      2880,
+      1800
+    ],
+    "pixelRatio": 2,
+    "tubes": 16,
+    "bloom": {
+      "threshold": 0,
+      "strength": 1.5,
+      "radius": 0.5
+    },
+    "videos": [
+      {
+        "src": "hero__background-video hero__background-video--base",
+        "width": 1280,
+        "height": 720,
+        "paused": false,
+        "readyState": 4
+      },
+      {
+        "src": "hero__background-video hero__background-video--overlay",
+        "width": 1280,
+        "height": 720,
+        "paused": false,
+        "readyState": 4
+      }
+    ]
+  },
+  "measures": [
+    {
+      "mode": "quieto",
+      "elapsed": 10003,
+      "renders": 309,
+      "rafFrames": 308,
+      "p95Ms": 33.600000000000364,
+      "videos": [
+        {
+          "total": 297,
+          "dropped": 1,
+          "paused": false,
+          "currentTime": 6.607565
+        },
+        {
+          "total": 294,
+          "dropped": 2,
+          "paused": false,
+          "currentTime": 0.069229
+        }
+      ],
+      "metrics": {
+        "LayoutCount": 231,
+        "RecalcStyleCount": 373,
+        "LayoutDuration": 0.074687,
+        "RecalcStyleDuration": 0.541578,
+        "TaskDuration": 3.494605
+      }
+    },
+    {
+      "mode": "movimiento",
+      "elapsed": 10000,
+      "renders": 348,
+      "rafFrames": 347,
+      "p95Ms": 49.900000000001455,
+      "videos": [
+        {
+          "total": 16,
+          "dropped": 12,
+          "paused": false,
+          "currentTime": 8.847007
+        },
+        {
+          "total": 18,
+          "dropped": 14,
+          "paused": false,
+          "currentTime": 3.150346
+        }
+      ],
+      "metrics": {
+        "LayoutCount": 273,
+        "RecalcStyleCount": 822,
+        "LayoutDuration": 0.082602,
+        "RecalcStyleDuration": 1.396649,
+        "TaskDuration": 5.656175
+      }
+    }
+  ],
+  "light": {
+    "theme": "light",
+    "renders": 83
+  },
+  "mobile": {
+    "renders": 61,
+    "display": "block",
+    "overflow": false
+  },
+  "resumed": {
+    "theme": "dark",
+    "renders": 36,
+    "display": "block"
+  },
+  "errors": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "gpu": {
+    "devices": [
+      {
+        "vendorId": 32902,
+        "deviceId": 42912,
+        "subSysId": 1047796197,
+        "revision": 4,
+        "vendorString": "",
+        "deviceString": "Intel(R) Iris(R) Xe Graphics",
+        "driverVendor": "Intel",
+        "driverVersion": "31.0.101.4502"
+      },
+      {
+        "vendorId": 5140,
+        "deviceId": 140,
+        "subSysId": 0,
+        "revision": 0,
+        "vendorString": "",
+        "deviceString": "Microsoft Basic Render Driver",
+        "driverVendor": "",
+        "driverVersion": "10.0.26100.8972"
+      }
+    ],
+    "featureStatus": {
+      "2d_canvas": "enabled",
+      "direct_rendering_display_compositor": "disabled_off_ok",
+      "gpu_compositing": "enabled",
+      "multiple_raster_threads": "enabled_on",
+      "opengl": "enabled_on",
+      "rasterization": "enabled",
+      "raw_draw": "disabled_off_ok",
+      "skia_graphite": "disabled_off",
+      "trees_in_viz": "disabled_off",
+      "video_decode": "enabled",
+      "video_encode": "enabled",
+      "webgl": "enabled",
+      "webgpu": "enabled",
+      "webnn": "disabled_off"
+    }
+  }
+}

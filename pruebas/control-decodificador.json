@@ -1,0 +1,160 @@
+{
+  "stage": "control-decodificador",
+  "config": {
+    "backend": "WebGPU",
+    "canvas": [
+      2880,
+      1800
+    ],
+    "pixelRatio": 2,
+    "tubes": 16,
+    "bloom": {
+      "threshold": 0,
+      "strength": 1.5,
+      "radius": 0.5
+    },
+    "videos": [
+      {
+        "src": "hero__background-video hero__background-video--base",
+        "width": 1280,
+        "height": 720,
+        "duration": 8.847007,
+        "paused": false,
+        "readyState": 4
+      },
+      {
+        "src": "hero__background-video hero__background-video--overlay",
+        "width": 1280,
+        "height": 720,
+        "duration": 5.085011,
+        "paused": false,
+        "readyState": 4
+      }
+    ]
+  },
+  "measures": [
+    {
+      "mode": "quieto",
+      "elapsed": 10014,
+      "renders": 180,
+      "rafFrames": 179,
+      "p95Ms": 68.39999999999964,
+      "videos": [
+        {
+          "total": 299,
+          "dropped": 118,
+          "presented": 179,
+          "paused": false,
+          "ended": false,
+          "readyState": 4,
+          "currentTime": 6.885883
+        },
+        {
+          "total": 295,
+          "dropped": 115,
+          "presented": 179,
+          "paused": false,
+          "ended": false,
+          "readyState": 4,
+          "currentTime": 0.300449
+        }
+      ],
+      "metrics": {
+        "LayoutCount": 131,
+        "RecalcStyleCount": 234,
+        "LayoutDuration": 0.08021500000000001,
+        "RecalcStyleDuration": 0.81507,
+        "TaskDuration": 5.440935
+      }
+    },
+    {
+      "mode": "movimiento",
+      "elapsed": 10033,
+      "renders": 128,
+      "rafFrames": 127,
+      "p95Ms": 117.39999999999782,
+      "videos": [
+        {
+          "total": 298,
+          "dropped": 170,
+          "presented": 128,
+          "paused": false,
+          "ended": false,
+          "readyState": 4,
+          "currentTime": 8.04023
+        },
+        {
+          "total": 290,
+          "dropped": 166,
+          "presented": 128,
+          "paused": false,
+          "ended": false,
+          "readyState": 4,
+          "currentTime": 5.085011
+        }
+      ],
+      "metrics": {
+        "LayoutCount": 114,
+        "RecalcStyleCount": 388,
+        "LayoutDuration": 0.058118,
+        "RecalcStyleDuration": 1.481824,
+        "TaskDuration": 5.610761
+      }
+    }
+  ],
+  "light": {
+    "theme": "light",
+    "renders": 0
+  },
+  "mobile": {
+    "renders": 0,
+    "display": "none",
+    "overflow": false
+  },
+  "resumed": {
+    "theme": "dark",
+    "renders": 22,
+    "display": "block"
+  },
+  "errors": [],
+  "gpu": {
+    "devices": [
+      {
+        "vendorId": 32902,
+        "deviceId": 42912,
+        "subSysId": 1047796197,
+        "revision": 4,
+        "vendorString": "",
+        "deviceString": "Intel(R) Iris(R) Xe Graphics",
+        "driverVendor": "Intel",
+        "driverVersion": "31.0.101.4502"
+      },
+      {
+        "vendorId": 5140,
+        "deviceId": 140,
+        "subSysId": 0,
+        "revision": 0,
+        "vendorString": "",
+        "deviceString": "Microsoft Basic Render Driver",
+        "driverVendor": "",
+        "driverVersion": "10.0.26100.8972"
+      }
+    ],
+    "featureStatus": {
+      "2d_canvas": "enabled",
+      "direct_rendering_display_compositor": "disabled_off_ok",
+      "gpu_compositing": "enabled",
+      "multiple_raster_threads": "enabled_on",
+      "opengl": "enabled_on",
+      "rasterization": "enabled",
+      "raw_draw": "disabled_off_ok",
+      "skia_graphite": "disabled_off",
+      "trees_in_viz": "disabled_off",
+      "video_decode": "disabled_software",
+      "video_encode": "enabled",
+      "webgl": "enabled",
+      "webgpu": "enabled",
+      "webnn": "disabled_off"
+    }
+  }
+}
