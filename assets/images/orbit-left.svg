@@ -1,0 +1,20 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block; --cube-face-delay: -6s;" width="51.3816" height="77.2126" viewBox="0 0 51.3816 77.2126" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+.cube-gradient-stop { animation: cube-line-gradient-flow 7.2s linear infinite; animation-delay: calc(var(--cube-face-delay) + var(--cube-stop-delay)); }
+@keyframes cube-line-gradient-flow { 0%, 100% { stop-color: #FF0505; } 20% { stop-color: #0932FF; } 40% { stop-color: #04FF7D; } 60% { stop-color: #03FFFF; } 80% { stop-color: #700099; } }
+@media (prefers-reduced-motion: reduce) { .cube-gradient-stop { animation: none; } }
+</style>
+<g id="Left">
+<path d="M50.8816 51.3263L0.5 76.7663V25.8863L50.8816 0.446327V51.3263Z" fill="#020120" style="mix-blend-mode:hard-light"/>
+<path d="M50.8816 51.3263L0.5 76.7663V25.8863L50.8816 0.446327V51.3263Z" stroke="url(#paint0_linear_0_22)" stroke-miterlimit="1"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_22" x1="25.6908" y1="0.446327" x2="25.6908" y2="76.7663" gradientUnits="userSpaceOnUse">
+<stop class="cube-gradient-stop" style="--cube-stop-delay: 0s;" stop-color="#FF0505"/>
+<stop class="cube-gradient-stop" style="--cube-stop-delay: -1.44s;" offset="0.254808" stop-color="#0932FF"/>
+<stop class="cube-gradient-stop" style="--cube-stop-delay: -2.88s;" offset="0.495192" stop-color="#04FF7D"/>
+<stop class="cube-gradient-stop" style="--cube-stop-delay: -4.32s;" offset="0.745192" stop-color="#03FFFF"/>
+<stop class="cube-gradient-stop" style="--cube-stop-delay: -5.76s;" offset="1" stop-color="#700099"/>
+</linearGradient>
+</defs>
+</svg>
