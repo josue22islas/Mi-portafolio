@@ -1,0 +1,18 @@
+# Configuracion privada y dependencias locales
+.env
+.env.*
+!.env.example
+node_modules/
+.codex/
+.agents/
+*.pem
+*.key
+*.log
+Thumbs.db
+.DS_Store
+
+# Resultados generados de pruebas
+pruebas/*.png
+pruebas/*.json
+experimentos/**/pruebas/*.png
+experimentos/**/pruebas/*.json
